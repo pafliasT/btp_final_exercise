@@ -1,5 +1,6 @@
 # CAP btp-final-exercise
 _out
+*.db
 *.sqlite
 connection.properties
 default-*.json
