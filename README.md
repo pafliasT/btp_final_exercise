@@ -43,20 +43,27 @@ The starter project includes several key directories:
 
 ### Step 3: Develop the UI5 Freestyle App
 
-1. **Prepare** your environment by ensuring UI5 tooling is available.
-2. **Develop** your app within the `app/` directory, leveraging UI5 to create a compelling user experience.
-3. **Integrate** with the backend services you've defined, making sure your app can display and manipulate the data.
+1. **Configure a new ui5 Project:** Go to the top-left burger menu and chose `File -> New Project from Template`.
+
+     - **Application Type:** Choose `Sap Fiori Application` and click `Start`.
+     - **Template Selection:** Choose `Basic` and click `Next`.
+     - **Data Source and Service Selection:** Choose `Use a Local CAP Project` and choose your CAP Project's OData services.
+     - **Entity Selection:** Give your View a name or stick with the default View1.
+     - **Project Attributes:** Click `Finish` without configuring anything in this step.
+
+2. **Integrate** with the backend services you've defined, making sure your app can display and manipulate the data.
 
 ## Running the Application Locally 🏃
 
 - **Backend**: Use `cds watch` in the root directory to serve your backend services locally.
 - **Frontend**: Navigate to your UI5 app directory and run it according to your setup (e.g., `ui5 serve`).
 
-## Next Steps 🌈
+## Next Steps 🌈 
 
 - **Expand Your Data Model**: As you develop your app, you may find the need to refine or expand your data model.
 - **Enhance Services**: Consider adding more complex queries or actions to your services.
 - **UI5 App Features**: Continuously improve the UI5 app with new features, better UI components, and enhanced user interaction.
+
 
 ## Congratulations! 🎉
 
